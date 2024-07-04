@@ -103,6 +103,19 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    position: relative;
+}
+
+#c-pad>span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 u {
