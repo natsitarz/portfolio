@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (min-width: 1281px) {
+    .nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 10px 20px;
+        gap: 2.4rem;
+        height: 6vh;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    #menuList {
+        display: none;
+    }
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    transition: text-decoration-color 0.5s;
+}
+
+a,
+a:active {
+    font-weight: bolder;
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+a.this {
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-weight: bolder;
+    text-decoration-thickness: 3px;
+}
+
+a:visited,
+a:link {
+    color: black;
+}
+
+.title-text {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    gap: 2.4rem;
+    height: 6vh;
+    width: 100%;
+    color: black;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+    border: 1px solid rgba(0, 0, 0, 0.623);
+}
+
+.fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+    width: 100%;
+    height: 100%;
+}
+
+body.loaded .fadein {
+    opacity: 1;
+}

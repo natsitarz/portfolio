@@ -1,0 +1,127 @@
+.content-title {
+    font-size: 4rem;
+    font-weight: light;
+    margin-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    height: 88vh;
+    width: 100%;
+}
+
+.content-right,
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding: 10rem;
+    font-size: 1.2rem;
+}
+
+.content-right {
+    gap: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.animated-underline {
+    position: relative;
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.animated-underline::after {
+    content: '';
+    font-weight: bolder;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    transform-origin: bottom left;
+    color: white;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+}
+
+.animated-underline:hover::after {
+    content: "VIP SECTOR!";
+    transform: scaleX(1);
+}
+
+.pad {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    filter: grayscale(100%);
+    transition: transform 0.5s, filter 0.5s;
+    cursor: pointer;
+}
+
+.pad:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+#a-pad {
+    background: url('../img/project-1.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+#b-pad {
+    background: url('../img/project-2.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+#c-pad {
+    background: url('../img/project-3.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+u {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about>img {
+    width: 18px;
+    height: 18px;
+}
+
+.rev {
+    filter: invert(100%);
+}
