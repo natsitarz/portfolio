@@ -7,14 +7,14 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 88vh;
+            height: 90h;
             width: 88vw;
         }
         .content {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 88vh;
+            height: 90h;
             width: 100vw;
             flex-direction: column;
         }
