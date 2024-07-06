@@ -90,6 +90,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    position: relative;
 }
 
 #b-pad {
@@ -97,6 +98,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    position: relative;
 }
 
 #c-pad {
@@ -112,6 +114,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    position: relative;
 }
 
 u {
