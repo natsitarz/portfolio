@@ -134,3 +134,7 @@ u {
 .rev {
     filter: invert(100%);
 }
+
+div.pad>span {
+    z-index: 10;
+}
