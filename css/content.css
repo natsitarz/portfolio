@@ -53,6 +53,7 @@
     background-color: rgb(255, 0, 0);
     transform-origin: bottom left;
     color: white;
+    font-size: 4rem;
     transition: transform 0.5s;
     transform: scaleX(0);
 }
