@@ -31,55 +31,7 @@ a:link {
     color: black;
 }
 
-#a-pad>span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: red;
-    color: white;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-#c-pad>span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: red;
-    color: white;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-#b-pad>span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: red;
-    color: white;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-#c-pad>span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: red;
-    color: white;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-#d-pad>span {
+div.pad>span {
     position: absolute;
     bottom: 0;
     right: 0;
