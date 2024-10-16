@@ -16,22 +16,22 @@ body {
     height: 100vh;
 }
 
-@media screen and (min-width: 1281px) {
-    .nav {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background-color: #ffffff;
-        padding: 10px 20px;
-        gap: 2.4rem;
-        height: 6vh;
-    }
-    .nav-mobile {
-        display: none;
-    }
-    #menuList {
-        display: none;
-    }
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    gap: 2.4rem;
+    height: 6vh;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+#menuList {
+    display: none;
 }
 
 .footer {

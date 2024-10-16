@@ -1,6 +1,6 @@
-    @media screen and (max-width: 1280px) {
+    @media screen and (max-width: 1260px) {
         .pad {
-            overflow: visible
+            overflow: visible;
         }
         .wrapper {
             display: flex;
@@ -31,7 +31,7 @@
         }
         .content-title {
             font-size: 4.5rem;
-            font-weight: light;
+            font-weight: 300;
         }
         .nav-mobile {
             position: absolute;
@@ -113,6 +113,7 @@
             color: white;
             transition: transform 0.5s;
             transform: scaleX(0);
+            font-size: 4rem;
         }
         .animated-underline:hover::after {
             content: "VIP SECTOR!";
