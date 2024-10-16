@@ -27,6 +27,13 @@
     padding-top: 5rem;
 }
 
+.content-projects>.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-right,
 .content-left {
     display: flex;
