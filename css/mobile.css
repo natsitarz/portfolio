@@ -10,7 +10,8 @@
             height: 90vh;
             width: 88vw;
         }
-        .content {
+        .content,
+        .content-projects {
             display: flex;
             justify-content: center;
             align-items: center;

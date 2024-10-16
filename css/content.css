@@ -6,18 +6,30 @@
 
 .content {
     display: flex;
-    justify-content: flex;
+    justify-content: flex-start;
     align-items: center;
-    height: 88vh;
+    min-height: 88vh;
     width: 100%;
     padding: 0 2rem;
+}
+
+.content-projects {
+    display: flex;
+    justify-content: flex;
+    align-items: flex-start;
+    min-height: 88vh;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.content-projects>.content-left {
+    padding-top: 5rem;
 }
 
 .content-right,
 .content-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     width: 50%;
     height: 100%;
@@ -27,6 +39,12 @@
 
 .content-right {
     gap: 1rem;
+    justify-content: center;
+}
+
+.content-left {
+    gap: 1rem;
+    justify-content: flex-start;
 }
 
 .buttons {
@@ -97,7 +115,7 @@
 #b-pad {
     background: url('../img/project-2.png');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-blend-mode: overlay;
     position: relative;
 }
