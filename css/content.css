@@ -6,12 +6,11 @@
 
 .content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     min-height: 88vh;
     width: 100%;
     padding: 0 2rem;
-    box-sizing: border-box;
 }
 
 .content-projects {
