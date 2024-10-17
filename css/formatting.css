@@ -42,3 +42,11 @@ div.pad>span {
     font-weight: bolder;
     text-transform: uppercase;
 }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: justify;
+}

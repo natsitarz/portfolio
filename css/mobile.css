@@ -3,12 +3,16 @@
             overflow: visible;
         }
         .content,
-        .content-projects {
+        .content-projects,
+        .content-blog {
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 0 auto;
             width: 100vw;
+            flex-direction: column;
+        }
+        .content-blog>.content-right {
             flex-direction: column;
         }
         .content-right,
