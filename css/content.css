@@ -144,19 +144,16 @@
 
 .placeholder-pad {
     background: url('../img/placeholder.png');
-    background-position: center;
-    background-blend-mode: overlay;
-    position: relative;
 }
 
 div[id*='-pad'],
 .placeholder-pad {
     filter: grayscale(100%);
+    transition: transform 0.5s, background-size 0.5s, filter 0.5s;
     background-size: 100%;
     background-position: center;
     background-blend-mode: overlay;
     position: relative;
-    transition: transform 0.5s, background-size 0.5s, filter 0.5s;
 }
 
 div[id*='-pad']:hover,
@@ -164,13 +161,13 @@ div[id*='-pad']:hover,
     transform: translateX(0.75rem);
     filter: grayscale(0%);
     z-index: 99;
+    background-size: 105%;
 }
 
 #a-pad:hover,
 #b-pad:hover,
 #c-pad:hover,
-#d-pad:hover,
-.placeholder-pad:hover {
+#d-pad:hover {
     background-size: 105%;
 }
 
