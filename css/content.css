@@ -175,32 +175,24 @@ div[id*='-pad']:hover,
     background: url('../img/project-1.png');
     background-size: 100%;
     background-position: center;
-    background-blend-mode: overlay;
-    position: relative;
 }
 
 #b-pad {
     background: url('../img/project-2.png');
     background-size: 100%;
     background-position: right;
-    background-blend-mode: overlay;
-    position: relative;
 }
 
 #c-pad {
     background: url('../img/project-3.png');
     background-size: 100%;
     background-position: center;
-    background-blend-mode: overlay;
-    position: relative;
 }
 
 #d-pad {
     background: url('../img/project-4.png');
     background-size: 100%;
     background-position: center;
-    background-blend-mode: overlay;
-    position: relative;
 }
 
 u {
