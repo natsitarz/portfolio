@@ -156,7 +156,7 @@ div[id*='-pad'],
     position: relative;
 }
 
-div[id*='-pad']:hover,
+div[id*='pad']:hover,
 .placeholder-pad:hover {
     transform: translateX(0.75rem);
     filter: grayscale(0%);
