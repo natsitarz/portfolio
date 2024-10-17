@@ -124,7 +124,8 @@
     transform: scaleX(1);
 }
 
-.pad {
+.pad,
+.placeholder-pad {
     overflow: visible;
     width: 100%;
     height: fit-content;
@@ -136,30 +137,46 @@
     padding: 2rem;
     color: white;
     text-shadow: 2px 2px 2px black;
-    filter: grayscale(100%);
-    transition: transform 0.5s, filter 0.5s;
+    position: relative;
     cursor: pointer;
-    transform: translateZ(0);
     backface-visibility: hidden;
-}
-
-.pad:hover {
-    transform: translateX(0.75rem);
-    filter: grayscale(0%);
-    z-index: 99;
 }
 
 .placeholder-pad {
     background: url('../img/placeholder.png');
-    background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     position: relative;
 }
 
+div[id*='-pad'],
+.placeholder-pad {
+    filter: grayscale(100%);
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+    transition: transform 0.5s, background-size 0.5s, filter 0.5s;
+}
+
+div[id*='-pad']:hover,
+.placeholder-pad:hover {
+    transform: translateX(0.75rem);
+    filter: grayscale(0%);
+    z-index: 99;
+}
+
+#a-pad:hover,
+#b-pad:hover,
+#c-pad:hover,
+#d-pad:hover,
+.placeholder-pad:hover {
+    background-size: 105%;
+}
+
 #a-pad {
     background: url('../img/project-1.png');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-blend-mode: overlay;
     position: relative;
@@ -167,7 +184,7 @@
 
 #b-pad {
     background: url('../img/project-2.png');
-    background-size: cover;
+    background-size: 100%;
     background-position: right;
     background-blend-mode: overlay;
     position: relative;
@@ -175,7 +192,7 @@
 
 #c-pad {
     background: url('../img/project-3.png');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-blend-mode: overlay;
     position: relative;
@@ -183,7 +200,7 @@
 
 #d-pad {
     background: url('../img/project-4.png');
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-blend-mode: overlay;
     position: relative;
