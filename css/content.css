@@ -140,12 +140,14 @@
     transition: transform 0.5s, filter 0.5s;
     cursor: pointer;
     transform: translateZ(0);
+    backface-visibility: hidden;
 }
 
 .pad:hover {
     filter: grayscale(0%);
     transform: scale(1.048);
     z-index: 99;
+    backface-visibility: hidden;
 }
 
 .placeholder-pad {
