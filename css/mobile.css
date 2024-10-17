@@ -101,7 +101,6 @@
             text-decoration: underline;
             text-decoration-color: red;
             font-weight: bolder;
-            font-size: 4rem;
         }
         .animated-underline::after {
             content: '';
@@ -116,10 +115,8 @@
             color: white;
             transition: transform 0.5s;
             transform: scaleX(0);
-            font-size: 4rem;
         }
         .animated-underline:hover::after {
             content: "UNSTABLE";
-            transform: scaleX(1);
         }
     }
