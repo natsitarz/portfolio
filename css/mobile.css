@@ -26,6 +26,10 @@
             font-size: 4.5rem;
             font-weight: 300;
         }
+        .content-title-home {
+            font-size: 4.5rem;
+            font-weight: bolder;
+        }
         .nav-mobile {
             position: sticky;
             top: 0;
@@ -111,7 +115,7 @@
             font-size: 4rem;
         }
         .animated-underline:hover::after {
-            content: "VIP SECTOR!";
+            content: "UNSTABLE";
             transform: scaleX(1);
         }
     }
