@@ -147,6 +147,14 @@
     z-index: 99;
 }
 
+.placeholder-pad {
+    background: url('../img/placeholder.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    position: relative;
+}
+
 #a-pad {
     background: url('../img/project-1.png');
     background-size: cover;
