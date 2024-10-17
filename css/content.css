@@ -147,7 +147,6 @@
     filter: grayscale(0%);
     transform: scale(1.05);
     z-index: 99;
-    backface-visibility: hidden;
 }
 
 .placeholder-pad {
