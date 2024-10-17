@@ -212,6 +212,15 @@ u {
     height: 18px;
 }
 
+.project-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.4rem;
+}
+
 .rev {
     filter: invert(100%);
+    width: 18px;
+    height: 18px;
 }
