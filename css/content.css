@@ -145,7 +145,7 @@
 
 .pad:hover {
     filter: grayscale(0%);
-    transform: scale(1.048);
+    transform: scale(1.05);
     z-index: 99;
     backface-visibility: hidden;
 }
