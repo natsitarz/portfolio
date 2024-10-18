@@ -1,4 +1,7 @@
     @media screen and (max-width: 1260px) {
+        body {
+            height: 100dvh;
+        }
         .pad {
             overflow: visible;
         }
