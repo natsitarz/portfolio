@@ -163,6 +163,7 @@ div[id*='pad']:hover,
 #a-pad:hover,
 #b-pad:hover,
 #c-pad:hover,
+#c-pad-archive:hover,
 #d-pad:hover {
     background-size: 105%;
 }
@@ -181,6 +182,12 @@ div[id*='pad']:hover,
 
 #c-pad {
     background: url('../img/project-3.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+#c-pad-archive {
+    background: url('../img/project-3-archive.png');
     background-size: 100%;
     background-position: center;
 }
