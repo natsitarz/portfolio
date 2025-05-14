@@ -50,3 +50,7 @@ div.pad>span {
     gap: 1rem;
     text-align: justify;
 }
+
+.invert {
+    filter: invert(1);
+}
